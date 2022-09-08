@@ -1,0 +1,34 @@
+.sheets{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+.sheet{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0,3s;
+    -webkit-transition: 0,3s;
+    -moz-transition: 0,3s;
+    -ms-transition: 0,3s;
+    -o-transition: 0,3s;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+.sheet:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.sheet img{
+    width: 100%;
+    border-radius: 3% 3% 0 0;
+    -webkit-border-radius: 3% 3% 0 0;
+    -moz-border-radius: 3% 3% 0 0;
+    -ms-border-radius: 3% 3% 0 0;
+    -o-border-radius: 3% 3% 0 0;
+}
+.sheet h1, p{
+    padding: 16px 16px 0;
+}
+/*    padding: 16px 16px;

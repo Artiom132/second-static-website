@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.all{
+    width: 50%;
+    background-color: #ffffff;
+    height: 1000px;
+    box-sizing: border-box;
+}
